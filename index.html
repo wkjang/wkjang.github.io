@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MOSAIC Lab</title>
+<meta name="description" content="MOSAIC Lab (Multimodal Observation of Situated Activity, Interaction, and Child Learning): multimodal AI and computational methods for understanding human learning, interaction, and development. Director: Wonkyung Jang.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="bar"><div class="wrap">
+<a class="nm" href="index.html"><i aria-hidden="true"><b style="background:var(--navy)"></b><b style="background:var(--teal)"></b><b style="background:var(--brick)"></b><b style="background:var(--olive)"></b><b style="background:var(--violet)"></b><b style="background:var(--ochre)"></b></i>MOSAIC Lab</a>
+<nav aria-label="Main"><ul><li><a href="index.html" aria-current="page">Overview</a></li><li><a href="snapshot.html">Project</a></li><li><a href="publications.html">Publications</a></li><li><a href="cv.html">CV</a></li></ul></nav></div></header>
+<div class="wrap">
+<div class="hero">
+<div class="hero-top"><div style="display:grid;gap:16px">
+<h1>MOSAIC Lab</h1>
+<p class="labfull"><b>M</b>ultimodal <b>O</b>bservation of <b>S</b>ituated <b>A</b>ctivity, <b>I</b>nteraction, and <b>C</b>hild Learning</p>
+<div class="lab"><span class="labmark" aria-hidden="true"><i style="background:var(--navy)"></i><i style="background:var(--teal)"></i><i style="background:var(--brick)"></i><i style="background:var(--olive)"></i><i style="background:var(--violet)"></i><i style="background:var(--ochre)"></i></span><span><b>Director: Wonkyung Jang, Ph.D.</b></span></div>
+<p class="role">Assistant Professor · Jeannine Rainbolt College of Education · University of Oklahoma</p>
+
+
+<p class="tagline">Understanding development and learning as situated, relational, and evolving, without reducing people to easily measured signals.</p>
+<p class="thesis">MOSAIC Lab develops <b>multimodal AI and computational methods</b> at the intersection of <b>human development</b> and <b>education</b>: how people learn, interact, and develop across homes, schools, and communities, and over time. We combine machine learning, natural language processing, computer vision, eye tracking, and network and longitudinal models with qualitative insight, building interpretable, human-centered measures and asking critically whose experiences data make visible.</p></div>
+<div class="cta"><a class="btn pri" href="#h-mod">Explore research</a><a class="btn" href="mosaic.html">MOSAIC</a><a class="btn" href="publications.html">Publications</a><a class="btn" href="cv.html">CV</a></div></div>
+<figure class="aibox"><svg id="aihero" viewBox="0 0 1120 580" role="img" aria-label="Multimodal AI architecture: video and pose, eye tracking, audio, conversation, and interaction logs each pass through an encoder, are fused by cross-modal attention into a shared embedding of interaction states, and come out as a social network of who responds to whom and a dependency profile.">
+<defs>
+<clipPath id="cp0"><rect x="22" y="74" width="196" height="76" rx="6"/></clipPath>
+<clipPath id="cp1"><rect x="22" y="172" width="196" height="76" rx="6"/></clipPath>
+<clipPath id="cp2"><rect x="22" y="270" width="196" height="76" rx="6"/></clipPath>
+<clipPath id="cp3"><rect x="22" y="368" width="196" height="76" rx="6"/></clipPath>
+<clipPath id="cp4"><rect x="22" y="466" width="196" height="76" rx="6"/></clipPath>
+<marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--muted)"/></marker>
+</defs>
+<text class="h" x="22" y="34">INPUT STREAMS</text>
+<text class="h" x="262" y="34">MODALITY ENCODERS</text>
+<text class="h" x="468" y="34">CROSS-MODAL FUSION</text>
+<text class="h" x="748" y="34">SHARED EMBEDDING</text>
+<text class="h" x="928" y="34">TIMESCALES × THEORY</text>
+<line class="sep" x1="22" y1="48" x2="1098" y2="48"/>
+<rect x="22" y="74" width="196" height="76" rx="6" fill="#ffffff"/>
+<image href="th-pose.webp" x="22" y="74" width="196" height="76" preserveAspectRatio="xMidYMid meet"/>
+<rect x="22" y="74" width="196" height="76" rx="6" fill="none" style="stroke:var(--brick)" stroke-width="2"/>
+<text class="cll" x="22" y="69" style="fill:var(--brick)">video · pose</text>
+<path class="flow" d="M222,112 L262,112" marker-end="url(#ah)"/>
+<text class="el" x="268" y="78">pose encoder</text>
+<rect class="tok" x="268" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.00s"/>
+<rect class="tok" x="294" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.13s"/>
+<rect class="tok" x="320" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.26s"/>
+<rect class="tok" x="346" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.39s"/>
+<rect class="tok" x="372" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.52s"/>
+<rect class="tok" x="398" y="90" width="20" height="44" rx="3" style="fill:var(--brick);animation-delay:-0.65s"/>
+<path id="p0" class="wire" d="M424,112 C450,112 446,290 476,290" style="stroke:var(--brick)"/>
+<circle r="3.5" style="fill:var(--brick)"><animateMotion dur="2.20s" repeatCount="indefinite" begin="-0.0s"><mpath href="#p0"/></animateMotion></circle>
+<rect x="22" y="172" width="196" height="76" rx="6" fill="#ffffff"/>
+<image href="th-gaze.webp" x="22" y="172" width="196" height="76" preserveAspectRatio="xMidYMid meet"/>
+<rect x="22" y="172" width="196" height="76" rx="6" fill="none" style="stroke:var(--teal)" stroke-width="2"/>
+<text class="cll" x="22" y="167" style="fill:var(--teal)">eye tracking</text>
+<path class="flow" d="M222,210 L262,210" marker-end="url(#ah)"/>
+<text class="el" x="268" y="176">gaze encoder</text>
+<rect class="tok" x="268" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-0.78s"/>
+<rect class="tok" x="294" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-0.91s"/>
+<rect class="tok" x="320" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-1.04s"/>
+<rect class="tok" x="346" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-1.17s"/>
+<rect class="tok" x="372" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-1.30s"/>
+<rect class="tok" x="398" y="188" width="20" height="44" rx="3" style="fill:var(--teal);animation-delay:-1.43s"/>
+<path id="p1" class="wire" d="M424,210 C450,210 446,290 476,290" style="stroke:var(--teal)"/>
+<circle r="3.5" style="fill:var(--teal)"><animateMotion dur="2.45s" repeatCount="indefinite" begin="-0.4s"><mpath href="#p1"/></animateMotion></circle>
+<rect x="22" y="270" width="196" height="76" rx="6" fill="#ffffff"/>
+<image href="cry-spectrogram.webp" x="22" y="270" width="196" height="76" preserveAspectRatio="xMidYMid meet"/>
+<rect x="22" y="270" width="196" height="76" rx="6" fill="none" style="stroke:var(--ochre)" stroke-width="2"/>
+<text class="cll" x="22" y="265" style="fill:var(--ochre)">audio</text>
+<path class="flow" d="M222,308 L262,308" marker-end="url(#ah)"/>
+<text class="el" x="268" y="274">audio encoder</text>
+<rect class="tok" x="268" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-1.56s"/>
+<rect class="tok" x="294" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-1.69s"/>
+<rect class="tok" x="320" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-1.82s"/>
+<rect class="tok" x="346" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-1.95s"/>
+<rect class="tok" x="372" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-2.08s"/>
+<rect class="tok" x="398" y="286" width="20" height="44" rx="3" style="fill:var(--ochre);animation-delay:-2.21s"/>
+<path id="p2" class="wire" d="M424,308 C450,308 446,290 476,290" style="stroke:var(--ochre)"/>
+<circle r="3.5" style="fill:var(--ochre)"><animateMotion dur="2.70s" repeatCount="indefinite" begin="-0.8s"><mpath href="#p2"/></animateMotion></circle>
+<rect x="22" y="368" width="196" height="76" rx="6" fill="#ffffff"/>
+<image href="th-net.webp" x="22" y="368" width="196" height="76" preserveAspectRatio="xMidYMid meet"/>
+<rect x="22" y="368" width="196" height="76" rx="6" fill="none" style="stroke:var(--navy)" stroke-width="2"/>
+<text class="cll" x="22" y="363" style="fill:var(--navy)">conversation · semantic network</text>
+<path class="flow" d="M222,406 L262,406" marker-end="url(#ah)"/>
+<text class="el" x="268" y="372">text encoder</text>
+<rect class="tok" x="268" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.34s"/>
+<rect class="tok" x="294" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.47s"/>
+<rect class="tok" x="320" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.60s"/>
+<rect class="tok" x="346" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.73s"/>
+<rect class="tok" x="372" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.86s"/>
+<rect class="tok" x="398" y="384" width="20" height="44" rx="3" style="fill:var(--navy);animation-delay:-2.99s"/>
+<path id="p3" class="wire" d="M424,406 C450,406 446,290 476,290" style="stroke:var(--navy)"/>
+<circle r="3.5" style="fill:var(--navy)"><animateMotion dur="2.95s" repeatCount="indefinite" begin="-1.2s"><mpath href="#p3"/></animateMotion></circle>
+<rect x="22" y="466" width="196" height="76" rx="6" fill="#ffffff"/>
+<image href="th-logs.webp" x="22" y="466" width="196" height="76" preserveAspectRatio="xMidYMid meet"/>
+<rect x="22" y="466" width="196" height="76" rx="6" fill="none" style="stroke:var(--olive)" stroke-width="2"/>
+<text class="cll" x="22" y="461" style="fill:var(--olive)">interaction logs</text>
+<path class="flow" d="M222,504 L262,504" marker-end="url(#ah)"/>
+<text class="el" x="268" y="470">event encoder</text>
+<rect class="tok" x="268" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.12s"/>
+<rect class="tok" x="294" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.25s"/>
+<rect class="tok" x="320" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.38s"/>
+<rect class="tok" x="346" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.51s"/>
+<rect class="tok" x="372" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.64s"/>
+<rect class="tok" x="398" y="482" width="20" height="44" rx="3" style="fill:var(--olive);animation-delay:-3.77s"/>
+<path id="p4" class="wire" d="M424,504 C450,504 446,290 476,290" style="stroke:var(--olive)"/>
+<circle r="3.5" style="fill:var(--olive)"><animateMotion dur="3.20s" repeatCount="indefinite" begin="-1.6s"><mpath href="#p4"/></animateMotion></circle>
+<rect class="block" x="476" y="78" width="236" height="424" rx="10"/>
+<rect class="layer" x="486" y="92" width="216" height="40" rx="5"/>
+<rect class="layer" x="492" y="98" width="216" height="40" rx="5"/>
+<rect class="layer" x="498" y="104" width="216" height="40" rx="5"/>
+<text class="bl" x="594" y="118" text-anchor="middle">transformer × N</text>
+<rect class="att" x="500.0" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-0.41s"/>
+<rect class="att" x="518.5" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.21;animation-delay:-0.62s"/>
+<rect class="att" x="537.0" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-1.61s"/>
+<rect class="att" x="555.5" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.63;animation-delay:-3.20s"/>
+<rect class="att" x="574.0" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.47;animation-delay:-0.89s"/>
+<rect class="att" x="592.5" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.29;animation-delay:-1.11s"/>
+<rect class="att" x="611.0" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.14;animation-delay:-0.42s"/>
+<rect class="att" x="629.5" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.15;animation-delay:-3.71s"/>
+<rect class="att" x="648.0" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.53;animation-delay:-3.23s"/>
+<rect class="att" x="666.5" y="152.0" width="16.0" height="16.0" rx="2" style="--a:0.50;animation-delay:-0.77s"/>
+<rect class="att" x="500.0" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.18;animation-delay:-2.51s"/>
+<rect class="att" x="518.5" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-3.42s"/>
+<rect class="att" x="537.0" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.58;animation-delay:-0.35s"/>
+<rect class="att" x="555.5" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.34;animation-delay:-2.69s"/>
+<rect class="att" x="574.0" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.27;animation-delay:-0.71s"/>
+<rect class="att" x="592.5" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.25;animation-delay:-0.36s"/>
+<rect class="att" x="611.0" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.64;animation-delay:-3.46s"/>
+<rect class="att" x="629.5" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.30;animation-delay:-1.20s"/>
+<rect class="att" x="648.0" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.62;animation-delay:-2.29s"/>
+<rect class="att" x="666.5" y="170.5" width="16.0" height="16.0" rx="2" style="--a:0.59;animation-delay:-3.39s"/>
+<rect class="att" x="500.0" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.28;animation-delay:-1.66s"/>
+<rect class="att" x="518.5" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.34;animation-delay:-1.72s"/>
+<rect class="att" x="537.0" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-1.22s"/>
+<rect class="att" x="555.5" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.52;animation-delay:-0.17s"/>
+<rect class="att" x="574.0" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-2.51s"/>
+<rect class="att" x="592.5" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.17;animation-delay:-2.14s"/>
+<rect class="att" x="611.0" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.25;animation-delay:-1.37s"/>
+<rect class="att" x="629.5" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.72;animation-delay:-0.78s"/>
+<rect class="att" x="648.0" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.22;animation-delay:-0.81s"/>
+<rect class="att" x="666.5" y="189.0" width="16.0" height="16.0" rx="2" style="--a:0.36;animation-delay:-1.11s"/>
+<rect class="att" x="500.0" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.20;animation-delay:-2.99s"/>
+<rect class="att" x="518.5" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.18;animation-delay:-2.23s"/>
+<rect class="att" x="537.0" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.61;animation-delay:-0.40s"/>
+<rect class="att" x="555.5" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-0.92s"/>
+<rect class="att" x="574.0" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.47;animation-delay:-2.46s"/>
+<rect class="att" x="592.5" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.15;animation-delay:-1.32s"/>
+<rect class="att" x="611.0" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.14;animation-delay:-1.84s"/>
+<rect class="att" x="629.5" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-2.79s"/>
+<rect class="att" x="648.0" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.60;animation-delay:-3.82s"/>
+<rect class="att" x="666.5" y="207.5" width="16.0" height="16.0" rx="2" style="--a:0.44;animation-delay:-3.84s"/>
+<rect class="att" x="500.0" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-1.16s"/>
+<rect class="att" x="518.5" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.68;animation-delay:-3.10s"/>
+<rect class="att" x="537.0" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.22;animation-delay:-3.77s"/>
+<rect class="att" x="555.5" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.35;animation-delay:-3.27s"/>
+<rect class="att" x="574.0" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-0.77s"/>
+<rect class="att" x="592.5" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.24;animation-delay:-0.55s"/>
+<rect class="att" x="611.0" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.21;animation-delay:-3.85s"/>
+<rect class="att" x="629.5" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.19;animation-delay:-0.04s"/>
+<rect class="att" x="648.0" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-0.68s"/>
+<rect class="att" x="666.5" y="226.0" width="16.0" height="16.0" rx="2" style="--a:0.49;animation-delay:-1.45s"/>
+<rect class="att" x="500.0" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.17;animation-delay:-0.39s"/>
+<rect class="att" x="518.5" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.70;animation-delay:-1.70s"/>
+<rect class="att" x="537.0" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.15;animation-delay:-0.24s"/>
+<rect class="att" x="555.5" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-0.67s"/>
+<rect class="att" x="574.0" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.39;animation-delay:-0.60s"/>
+<rect class="att" x="592.5" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-1.96s"/>
+<rect class="att" x="611.0" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.16;animation-delay:-3.99s"/>
+<rect class="att" x="629.5" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.13;animation-delay:-2.12s"/>
+<rect class="att" x="648.0" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.48;animation-delay:-1.64s"/>
+<rect class="att" x="666.5" y="244.5" width="16.0" height="16.0" rx="2" style="--a:0.71;animation-delay:-1.91s"/>
+<rect class="att" x="500.0" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.16;animation-delay:-1.64s"/>
+<rect class="att" x="518.5" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-1.68s"/>
+<rect class="att" x="537.0" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.16;animation-delay:-3.56s"/>
+<rect class="att" x="555.5" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.53;animation-delay:-1.99s"/>
+<rect class="att" x="574.0" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-1.02s"/>
+<rect class="att" x="592.5" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.16;animation-delay:-0.83s"/>
+<rect class="att" x="611.0" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-3.48s"/>
+<rect class="att" x="629.5" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.13;animation-delay:-0.21s"/>
+<rect class="att" x="648.0" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.64;animation-delay:-2.26s"/>
+<rect class="att" x="666.5" y="263.0" width="16.0" height="16.0" rx="2" style="--a:0.71;animation-delay:-1.61s"/>
+<rect class="att" x="500.0" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.61;animation-delay:-2.62s"/>
+<rect class="att" x="518.5" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.50;animation-delay:-2.98s"/>
+<rect class="att" x="537.0" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.27;animation-delay:-0.37s"/>
+<rect class="att" x="555.5" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.15;animation-delay:-3.50s"/>
+<rect class="att" x="574.0" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.61;animation-delay:-3.70s"/>
+<rect class="att" x="592.5" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.19;animation-delay:-2.63s"/>
+<rect class="att" x="611.0" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.50;animation-delay:-2.57s"/>
+<rect class="att" x="629.5" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-2.11s"/>
+<rect class="att" x="648.0" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.38;animation-delay:-2.74s"/>
+<rect class="att" x="666.5" y="281.5" width="16.0" height="16.0" rx="2" style="--a:0.16;animation-delay:-3.69s"/>
+<rect class="att" x="500.0" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.67;animation-delay:-0.30s"/>
+<rect class="att" x="518.5" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.69;animation-delay:-3.85s"/>
+<rect class="att" x="537.0" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.39;animation-delay:-0.18s"/>
+<rect class="att" x="555.5" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.60;animation-delay:-0.51s"/>
+<rect class="att" x="574.0" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.68;animation-delay:-2.67s"/>
+<rect class="att" x="592.5" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-0.67s"/>
+<rect class="att" x="611.0" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.36;animation-delay:-2.28s"/>
+<rect class="att" x="629.5" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.45;animation-delay:-3.71s"/>
+<rect class="att" x="648.0" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-0.01s"/>
+<rect class="att" x="666.5" y="300.0" width="16.0" height="16.0" rx="2" style="--a:0.63;animation-delay:-0.05s"/>
+<rect class="att" x="500.0" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.58;animation-delay:-0.46s"/>
+<rect class="att" x="518.5" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.51;animation-delay:-3.13s"/>
+<rect class="att" x="537.0" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.58;animation-delay:-2.20s"/>
+<rect class="att" x="555.5" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.58;animation-delay:-0.81s"/>
+<rect class="att" x="574.0" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.39;animation-delay:-1.32s"/>
+<rect class="att" x="592.5" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.60;animation-delay:-3.09s"/>
+<rect class="att" x="611.0" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.25;animation-delay:-2.11s"/>
+<rect class="att" x="629.5" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.12;animation-delay:-0.14s"/>
+<rect class="att" x="648.0" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.33;animation-delay:-1.96s"/>
+<rect class="att" x="666.5" y="318.5" width="16.0" height="16.0" rx="2" style="--a:0.75;animation-delay:-2.43s"/>
+<rect x="500.0" y="144" width="16.0" height="4" style="fill:var(--brick)"/>
+<rect x="492" y="152.0" width="4" height="16.0" style="fill:var(--brick)"/>
+<rect x="518.5" y="144" width="16.0" height="4" style="fill:var(--brick)"/>
+<rect x="492" y="170.5" width="4" height="16.0" style="fill:var(--brick)"/>
+<rect x="537.0" y="144" width="16.0" height="4" style="fill:var(--teal)"/>
+<rect x="492" y="189.0" width="4" height="16.0" style="fill:var(--teal)"/>
+<rect x="555.5" y="144" width="16.0" height="4" style="fill:var(--teal)"/>
+<rect x="492" y="207.5" width="4" height="16.0" style="fill:var(--teal)"/>
+<rect x="574.0" y="144" width="16.0" height="4" style="fill:var(--ochre)"/>
+<rect x="492" y="226.0" width="4" height="16.0" style="fill:var(--ochre)"/>
+<rect x="592.5" y="144" width="16.0" height="4" style="fill:var(--ochre)"/>
+<rect x="492" y="244.5" width="4" height="16.0" style="fill:var(--ochre)"/>
+<rect x="611.0" y="144" width="16.0" height="4" style="fill:var(--navy)"/>
+<rect x="492" y="263.0" width="4" height="16.0" style="fill:var(--navy)"/>
+<rect x="629.5" y="144" width="16.0" height="4" style="fill:var(--navy)"/>
+<rect x="492" y="281.5" width="4" height="16.0" style="fill:var(--navy)"/>
+<rect x="648.0" y="144" width="16.0" height="4" style="fill:var(--olive)"/>
+<rect x="492" y="300.0" width="4" height="16.0" style="fill:var(--olive)"/>
+<rect x="666.5" y="144" width="16.0" height="4" style="fill:var(--olive)"/>
+<rect x="492" y="318.5" width="4" height="16.0" style="fill:var(--olive)"/>
+<text class="bl" x="594" y="358" text-anchor="middle">cross-modal attention</text>
+<text class="sm" x="594" y="376" text-anchor="middle">who attends to what, across channels</text>
+<rect class="layer" x="496" y="394" width="196" height="26" rx="5"/><text class="sm" x="594" y="411" text-anchor="middle">temporal alignment</text>
+<rect class="layer" x="496" y="428" width="196" height="26" rx="5"/><text class="sm" x="594" y="445" text-anchor="middle">uncertainty-aware fusion</text>
+<rect class="layer" x="496" y="462" width="196" height="26" rx="5"/><text class="sm" x="594" y="479" text-anchor="middle">abstain if unsure</text>
+<path id="pe" class="wire" d="M712,290 C730,290 730,290 748,290" style="stroke:var(--muted)"/>
+<path class="flow" d="M712,290 L746,290" marker-end="url(#ah)"/>
+<rect class="card" x="748" y="128" width="160" height="320" rx="8"/>
+<ellipse cx="800" cy="200" rx="44" ry="34" fill="none" style="stroke:var(--teal)" stroke-dasharray="3 4"/>
+<circle class="pt" cx="812.6" cy="210.6" r="2.8" style="fill:var(--teal);animation-delay:-2.30s"/>
+<circle class="pt" cx="797.7" cy="199.8" r="2.8" style="fill:var(--teal);animation-delay:-2.51s"/>
+<circle class="pt" cx="803.8" cy="194.9" r="2.8" style="fill:var(--teal);animation-delay:-1.63s"/>
+<circle class="pt" cx="777.1" cy="215.0" r="2.8" style="fill:var(--teal);animation-delay:-0.93s"/>
+<circle class="pt" cx="802.4" cy="216.5" r="2.8" style="fill:var(--teal);animation-delay:-2.90s"/>
+<circle class="pt" cx="808.1" cy="203.9" r="2.8" style="fill:var(--teal);animation-delay:-1.86s"/>
+<circle class="pt" cx="818.1" cy="188.7" r="2.8" style="fill:var(--teal);animation-delay:-1.30s"/>
+<circle class="pt" cx="819.4" cy="182.9" r="2.8" style="fill:var(--teal);animation-delay:-0.20s"/>
+<circle class="pt" cx="809.9" cy="193.5" r="2.8" style="fill:var(--teal);animation-delay:-0.91s"/>
+<circle class="pt" cx="811.1" cy="187.0" r="2.8" style="fill:var(--teal);animation-delay:-2.40s"/>
+<circle class="pt" cx="816.5" cy="220.4" r="2.8" style="fill:var(--teal);animation-delay:-0.53s"/>
+<circle class="pt" cx="813.9" cy="213.5" r="2.8" style="fill:var(--teal);animation-delay:-1.02s"/>
+<circle class="pt" cx="767.3" cy="193.8" r="2.8" style="fill:var(--teal);animation-delay:-2.13s"/>
+<circle class="pt" cx="817.9" cy="200.4" r="2.8" style="fill:var(--teal);animation-delay:-1.63s"/>
+<circle class="pt" cx="770.7" cy="201.8" r="2.8" style="fill:var(--teal);animation-delay:-1.45s"/>
+<circle class="pt" cx="813.8" cy="205.0" r="2.8" style="fill:var(--teal);animation-delay:-2.54s"/>
+<text class="sm" x="800" y="160" text-anchor="middle" style="fill:var(--teal)">shared focus</text>
+<ellipse cx="858" cy="300" rx="44" ry="34" fill="none" style="stroke:var(--muted)" stroke-dasharray="3 4"/>
+<circle class="pt" cx="838.9" cy="317.0" r="2.8" style="fill:var(--muted);animation-delay:-2.96s"/>
+<circle class="pt" cx="838.1" cy="285.6" r="2.8" style="fill:var(--muted);animation-delay:-1.83s"/>
+<circle class="pt" cx="844.8" cy="322.3" r="2.8" style="fill:var(--muted);animation-delay:-1.40s"/>
+<circle class="pt" cx="873.0" cy="293.4" r="2.8" style="fill:var(--muted);animation-delay:-2.60s"/>
+<circle class="pt" cx="864.2" cy="281.5" r="2.8" style="fill:var(--muted);animation-delay:-1.33s"/>
+<circle class="pt" cx="877.5" cy="316.9" r="2.8" style="fill:var(--muted);animation-delay:-1.09s"/>
+<circle class="pt" cx="852.4" cy="293.5" r="2.8" style="fill:var(--muted);animation-delay:-0.25s"/>
+<circle class="pt" cx="877.6" cy="317.7" r="2.8" style="fill:var(--muted);animation-delay:-0.53s"/>
+<circle class="pt" cx="874.2" cy="291.9" r="2.8" style="fill:var(--muted);animation-delay:-1.73s"/>
+<circle class="pt" cx="842.0" cy="315.5" r="2.8" style="fill:var(--muted);animation-delay:-0.28s"/>
+<circle class="pt" cx="829.7" cy="314.1" r="2.8" style="fill:var(--muted);animation-delay:-0.54s"/>
+<circle class="pt" cx="847.6" cy="289.3" r="2.8" style="fill:var(--muted);animation-delay:-0.90s"/>
+<circle class="pt" cx="861.4" cy="300.4" r="2.8" style="fill:var(--muted);animation-delay:-2.85s"/>
+<circle class="pt" cx="873.1" cy="280.4" r="2.8" style="fill:var(--muted);animation-delay:-2.42s"/>
+<circle class="pt" cx="869.4" cy="297.6" r="2.8" style="fill:var(--muted);animation-delay:-1.75s"/>
+<circle class="pt" cx="832.2" cy="300.5" r="2.8" style="fill:var(--muted);animation-delay:-2.81s"/>
+<text class="sm" x="858" y="260" text-anchor="middle" style="fill:var(--muted)">responsiveness</text>
+<ellipse cx="800" cy="385" rx="44" ry="34" fill="none" style="stroke:var(--brick)" stroke-dasharray="3 4"/>
+<circle class="pt" cx="802.3" cy="360.0" r="2.8" style="fill:var(--brick);animation-delay:-0.35s"/>
+<circle class="pt" cx="783.5" cy="368.6" r="2.8" style="fill:var(--brick);animation-delay:-2.24s"/>
+<circle class="pt" cx="776.2" cy="369.6" r="2.8" style="fill:var(--brick);animation-delay:-0.91s"/>
+<circle class="pt" cx="818.8" cy="378.5" r="2.8" style="fill:var(--brick);animation-delay:-1.80s"/>
+<circle class="pt" cx="823.2" cy="372.5" r="2.8" style="fill:var(--brick);animation-delay:-0.93s"/>
+<circle class="pt" cx="802.3" cy="397.9" r="2.8" style="fill:var(--brick);animation-delay:-1.88s"/>
+<circle class="pt" cx="833.8" cy="384.5" r="2.8" style="fill:var(--brick);animation-delay:-1.20s"/>
+<circle class="pt" cx="774.1" cy="398.2" r="2.8" style="fill:var(--brick);animation-delay:-0.85s"/>
+<circle class="pt" cx="797.7" cy="386.0" r="2.8" style="fill:var(--brick);animation-delay:-0.55s"/>
+<circle class="pt" cx="772.0" cy="379.9" r="2.8" style="fill:var(--brick);animation-delay:-1.84s"/>
+<circle class="pt" cx="777.0" cy="403.6" r="2.8" style="fill:var(--brick);animation-delay:-1.87s"/>
+<circle class="pt" cx="804.0" cy="389.2" r="2.8" style="fill:var(--brick);animation-delay:-2.92s"/>
+<circle class="pt" cx="834.1" cy="383.1" r="2.8" style="fill:var(--brick);animation-delay:-1.81s"/>
+<circle class="pt" cx="796.7" cy="390.6" r="2.8" style="fill:var(--brick);animation-delay:-0.77s"/>
+<circle class="pt" cx="806.0" cy="409.0" r="2.8" style="fill:var(--brick);animation-delay:-2.68s"/>
+<circle class="pt" cx="802.0" cy="377.0" r="2.8" style="fill:var(--brick);animation-delay:-0.72s"/>
+<text class="sm" x="800" y="345" text-anchor="middle" style="fill:var(--brick)">disconnection</text>
+<text class="sm" x="828" y="470" text-anchor="middle">relational states</text>
+<path class="flow" d="M908,290 L926,290" marker-end="url(#ah)"/>
+<rect class="card" x="932" y="60" width="176" height="112" rx="6"/>
+<rect x="932" y="60" width="4" height="112" rx="2" style="fill:var(--brick)"/>
+<text class="el" x="940" y="75">microtime</text><text class="xs" x="1100" y="75" text-anchor="end">seconds</text>
+<text class="xs" x="940" y="88" style="fill:var(--brick)">proximal processes · coupling</text>
+<path d="M940.0,132.0 L942.0,127.3 L944.0,123.1 L946.0,119.6 L948.0,117.1 L950.0,115.8 L952.0,115.8 L954.0,117.0 L956.0,119.2 L958.0,122.2 L960.0,125.6 L962.0,128.9 L964.0,132.0 L966.0,134.3 L968.0,135.7 L970.0,136.0 L972.0,135.2 L974.0,133.3 L976.0,130.7 L978.0,127.5 L980.0,124.1 L982.0,121.0 L984.0,118.5 L986.0,116.8 L988.0,116.3 L990.0,117.1 L992.0,119.1 L994.0,122.2 L996.0,126.1 L998.0,130.7 L1000.0,135.4 L1002.0,139.8 L1004.0,143.7 L1006.0,146.6 L1008.0,148.4 L1010.0,149.0 L1012.0,148.2 L1014.0,146.4 L1016.0,143.6 L1018.0,140.3 L1020.0,136.8 L1022.0,133.5 L1024.0,130.8 L1026.0,128.8 L1028.0,128.0 L1030.0,128.2 L1032.0,129.5 L1034.0,131.7 L1036.0,134.7 L1038.0,137.9 L1040.0,141.1 L1042.0,143.9 L1044.0,145.9 L1046.0,146.9 L1048.0,146.7 L1050.0,145.2 L1052.0,142.6 L1054.0,139.0 L1056.0,134.7 L1058.0,130.0 L1060.0,125.4 L1062.0,121.2 L1064.0,117.9 L1066.0,115.6 L1068.0,114.5 L1070.0,114.8 L1072.0,116.2 L1074.0,118.6 L1076.0,121.8 L1078.0,125.3 L1080.0,128.9 L1082.0,132.0 L1084.0,134.4 L1086.0,135.9 L1088.0,136.2 L1090.0,135.5 L1092.0,133.7 L1094.0,131.1 L1096.0,128.1 L1098.0,124.9 L1100.0,121.9" fill="none" style="stroke:var(--navy)" stroke-width="1.8"/>
+<path d="M940.0,123.8 L942.0,120.6 L944.0,118.2 L946.0,116.8 L948.0,116.5 L950.0,117.3 L952.0,119.0 L954.0,121.5 L956.0,124.5 L958.0,127.6 L960.0,130.6 L962.0,133.1 L964.0,134.9 L966.0,135.8 L968.0,135.8 L970.0,134.8 L972.0,133.0 L974.0,130.7 L976.0,128.1 L978.0,125.5 L980.0,123.2 L982.0,121.6 L984.0,120.8 L986.0,121.0 L988.0,122.3 L990.0,124.6 L992.0,127.7 L994.0,131.3 L996.0,135.2 L998.0,139.1 L1000.0,142.5 L1002.0,145.3 L1004.0,147.1 L1006.0,147.9 L1008.0,147.5 L1010.0,146.1 L1012.0,143.9 L1014.0,141.0 L1016.0,137.8 L1018.0,134.7 L1020.0,131.9 L1022.0,129.6 L1024.0,128.2 L1026.0,127.8 L1028.0,128.3 L1030.0,129.7 L1032.0,131.7 L1034.0,134.2 L1036.0,136.8 L1038.0,139.2 L1040.0,141.2 L1042.0,142.3 L1044.0,142.5 L1046.0,141.7 L1048.0,139.9 L1050.0,137.2 L1052.0,133.7 L1054.0,129.9 L1056.0,126.0 L1058.0,122.4 L1060.0,119.4 L1062.0,117.2 L1064.0,116.0 L1066.0,115.9 L1068.0,116.9 L1070.0,118.8 L1072.0,121.5 L1074.0,124.7 L1076.0,128.0 L1078.0,131.1 L1080.0,133.6 L1082.0,135.5 L1084.0,136.5 L1086.0,136.4 L1088.0,135.5 L1090.0,133.8 L1092.0,131.5 L1094.0,128.9 L1096.0,126.4 L1098.0,124.3 L1100.0,122.8" fill="none" style="stroke:var(--brick)" stroke-width="1.8"/>
+<text class="xs" x="940" y="166">reciprocal, second by second</text>
+<path class="flow" d="M1020,174 L1020,186" marker-end="url(#ah)"/>
+<rect class="card" x="932" y="190" width="176" height="124" rx="6"/>
+<rect x="932" y="190" width="4" height="124" rx="2" style="fill:var(--teal)"/>
+<text class="el" x="940" y="205">mesotime</text><text class="xs" x="1100" y="205" text-anchor="end">sessions · weeks</text>
+<text class="xs" x="940" y="218" style="fill:var(--teal)">dynamic systems · attractors</text>
+<rect x="940.0" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="951.4" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="962.8" y="226" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="974.2" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="985.6" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="997.0" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="1008.4" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1019.8" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1031.2" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1042.6" y="226" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="1054.0" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1065.4" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1076.8" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1088.2" y="226" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="940.0" y="241" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="951.4" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="962.8" y="241" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="974.2" y="241" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="985.6" y="241" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="997.0" y="241" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="1008.4" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1019.8" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1031.2" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1042.6" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1054.0" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1065.4" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1076.8" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1088.2" y="241" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="940.0" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="951.4" y="256" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="962.8" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="974.2" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="985.6" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="997.0" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="1008.4" y="256" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1019.8" y="256" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1031.2" y="256" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1042.6" y="256" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1054.0" y="256" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="1065.4" y="256" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1076.8" y="256" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1088.2" y="256" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="940.0" y="271" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="951.4" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="962.8" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="974.2" y="271" width="10" height="11" rx="1.5" style="fill:var(--muted)" opacity=".85"/>
+<rect x="985.6" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="997.0" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1008.4" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1019.8" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1031.2" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1042.6" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1054.0" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1065.4" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<rect x="1076.8" y="271" width="10" height="11" rx="1.5" style="fill:var(--brick)" opacity=".85"/>
+<rect x="1088.2" y="271" width="10" height="11" rx="1.5" style="fill:var(--teal)" opacity=".85"/>
+<text class="xs" x="940" y="308">settling into stable states</text>
+<path class="flow" d="M1020,316 L1020,328" marker-end="url(#ah)"/>
+<rect class="card" x="932" y="332" width="176" height="196" rx="6"/>
+<rect x="932" y="332" width="4" height="196" rx="2" style="fill:var(--olive)"/>
+<text class="el" x="940" y="347">macrotime</text><text class="xs" x="1100" y="347" text-anchor="end">months · years</text>
+<text class="xs" x="940" y="360" style="fill:var(--olive)">developmental cascades</text>
+<rect x="942" y="368" width="42" height="15" rx="3" style="fill:var(--surface);stroke:var(--olive)"/>
+<text class="xs" x="946" y="379">relate</text>
+<path class="flow" d="M985,375 L990,375" marker-end="url(#ah)"/>
+<rect x="992" y="368" width="53" height="15" rx="3" style="fill:var(--surface);stroke:var(--olive)"/>
+<text class="xs" x="996" y="379">language</text>
+<path class="flow" d="M1046,375 L1050,375" marker-end="url(#ah)"/>
+<rect x="1052" y="368" width="53" height="15" rx="3" style="fill:var(--surface);stroke:var(--olive)"/>
+<text class="xs" x="1056" y="379">learning</text>
+<line class="sep" x1="944" y1="500" x2="1100" y2="500"/><line class="sep" x1="944" y1="394" x2="944" y2="500"/>
+<path d="M944,488 C1004,484 1030,426.72 1100,406.7" fill="none" style="stroke:var(--teal)" stroke-width="2.2" class="traj"/>
+<path d="M944,488 C1004,484 1030,458.52 1100,438.5" fill="none" style="stroke:var(--navy)" stroke-width="2.2" class="traj"/>
+<path d="M944,488 C1004,484 1030,492.44 1100,472.4" fill="none" style="stroke:var(--brick)" stroke-width="2.2" class="traj"/>
+<text class="xs" x="944" y="514">longitudinal trajectories</text>
+</svg><figcaption class="netcap"><span>MOSAIC framework: real data from my projects enters on the left. Each stream is encoded and fused into relational states, and read across three timescales, each tied to a theory: proximal processes and real-time coupling in microtime (Bronfenbrenner), attractor states that stabilize across sessions in mesotime (dynamic systems), and developmental cascades toward later milestones in macrotime, followed with longitudinal models.</span></figcaption></figure>
+</div>
+<div class="kpis" aria-label="Highlights">
+<div><strong>$700K+</strong><span>federal, state, and institutional funding as PI or Co-PI</span></div>
+<div><strong>16</strong><span>peer-reviewed publications, plus a book</span></div>
+<div><strong>57</strong><span>conference presentations</span></div>
+<div><strong>Ph.D. + M.S.</strong><span>Education; Statistics &amp; Operations Research, UNC Chapel Hill</span></div>
+</div>
+
+<section aria-labelledby="h-th"><blockquote class="pull"><p>&ldquo;Every child needs at least one adult who is irrationally crazy about him or her.&rdquo;</p><cite>Urie Bronfenbrenner</cite></blockquote><div class="prose"><p class="lbl">Theory</p><h2 id="h-th">Bringing the great theories of development into view</h2><p>Three classic ideas in human development describe change as relational, dynamic, and cumulative, but have been hard to observe directly. Multimodal AI and dynamic modeling make them measurable.</p></div>
+<div class="theory">
+<div class="tc"><svg viewBox="0 0 200 120" aria-hidden="true"><circle cx="100" cy="60" r="54" class="r4"/><circle cx="100" cy="60" r="40" class="r3"/><circle cx="100" cy="60" r="26" class="r2"/><circle cx="100" cy="60" r="11" class="r1"/><path d="M100,60 L132,38" class="tie"/><circle cx="132" cy="38" r="4" class="nd"/><path d="M100,60 L70,82" class="tie"/><circle cx="70" cy="82" r="4" class="nd"/><text x="186" y="18" text-anchor="end">macrotime</text><text x="186" y="104" text-anchor="end">microtime</text></svg>
+<span class="tk">Bioecological model · Bronfenbrenner</span><h3>Proximal processes, measured in time</h3><p>Development is driven by reciprocal exchanges between a child and the people closest to them, nested in family, program, and community contexts and unfolding in microtime, mesotime, and macrotime.</p><p class="tn"><b>Innovation</b> Pose, gaze, and speech capture proximal processes second by second; multilevel models place them in context; the same child is followed from moments to years.</p></div>
+<div class="tc"><svg viewBox="0 0 200 120" aria-hidden="true"><ellipse cx="68" cy="60" rx="38" ry="26" class="bas"/><ellipse cx="146" cy="58" rx="34" ry="24" class="bas"/><circle cx="68" cy="60" r="4" class="at"/><circle cx="146" cy="58" r="4" class="at"/><path class="trj" d="M20,100 C40,96 52,88 60,76 C70,60 92,52 80,64 C72,72 60,66 66,58 C76,46 104,40 116,52 C126,62 138,72 150,62 C158,54 146,46 140,54"/><text x="68" y="114" text-anchor="middle">attractor</text><text x="146" y="110" text-anchor="middle">attractor</text></svg>
+<span class="tk">Dynamic systems theory</span><h3>Coupling, stability, and change</h3><p>Behavior self-organizes from many interacting parts. Relationships settle into stable patterns, attractor states, and reorganize through periods of variability.</p><p class="tn"><b>Innovation</b> Time-series coupling, recurrence, and state models estimate synchrony, leadership, and the stable relational states a dyad keeps returning to, directly from multimodal signals.</p></div>
+<div class="tc"><svg viewBox="0 0 200 120" aria-hidden="true"><g class="dm"><rect x="10" y="14" width="44" height="22" rx="4"/><rect x="78" y="49" width="44" height="22" rx="4"/><rect x="146" y="84" width="44" height="22" rx="4"/></g><text x="32" y="29" text-anchor="middle">relate</text><text x="100" y="64" text-anchor="middle">language</text><text x="168" y="99" text-anchor="middle">learning</text><path class="cs" d="M54,30 C70,34 72,46 78,56"/><path class="cs" d="M122,65 C138,70 140,82 146,92"/><path class="cs2" d="M54,26 C110,22 150,40 168,84"/></svg>
+<span class="tk">Developmental cascades</span><h3>Effects that spread across domains</h3><p>Early differences in one domain carry forward into others: relationships shape language, language shapes later learning, and small gaps compound over time.</p><p class="tn"><b>Innovation</b> Longitudinal and multilevel models trace how early relational and language experiences carry forward into later learning across domains.</p></div>
+</div></section>
+
+
+
+<section aria-labelledby="h-mod"><div class="prose"><p class="lbl">Explore by modality</p><h2 id="h-mod">Every data stream is a window into human interaction</h2><p>Video, audio, language, eye tracking, digital traces, and longitudinal data each capture a different side of how people attend, communicate, construct meaning, and shape one another over time, and whose experiences become visible in data. Choose one to see the full analysis, findings, and papers.</p></div>
+<div class="mods"><a class="mod" href="interaction.html"><span class="mi fit"><img src="vision-card.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Video &amp; pose · computer vision</span><span class="mt">Closeness, posture, and who leads in family life</span><span class="md">Ordinary home video becomes a second-by-second record of the caregiver–child relationship: how close they stay, how each leans in or away, and whose movement shapes the other's.<span class="kf"><b>Contribution</b>A scalable, non-invasive way to measure caregiver–child closeness and mutual influence from everyday video, opening proximal processes and dyadic dynamics to large-scale, naturalistic study.</span><span class="kf bt"><b>Innovation</b>Markerless pose estimation feeds a dependency profile that combines linear, nonlinear, rhythmic, and event-based measures, each tested against shuffled timing. No wearable sensors or lab setting needed.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Detect &amp; track</b><span>YOLO11-pose finds caregiver and child; ByteTrack keeps their identities stable</span></span><span class="pt"><b>Keypoints</b><span>17 joints per person, every frame of ordinary home video</span></span><span class="pt"><b>Distance &amp; torso tilt</b><span>Body-normalized closeness and how each torso leans toward or away</span></span><span class="pt"><b>Coupling &amp; leadership</b><span>Moving together, one following, and who starts, from lagged and kernel measures</span></span><span class="pt"><b>Contingent response</b><span>Whether a child's withdrawal draws the caregiver back, tested against shuffled timing</span></span></span></span></a><a class="mod" href="attention.html"><span class="mi fit"><img src="gaze-e2e-card.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Gaze · eye tracking</span><span class="mt">Attention, identity, and representation</span><span class="md">Before children say anything about a story, their eyes have already chosen where to look.<span class="kf"><b>Contribution</b>Connects how children are represented in media to the attention they actually give, linking identity development with the materials adults choose for them.</span><span class="kf bt"><b>Innovation</b>Dual head-mounted eye tracking records child and adult gaze together, during natural shared reading.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Dual tracking</b><span>Child and adult each wear a head-mounted eye tracker</span></span><span class="pt"><b>Scene mapping</b><span>Gaze is placed on the scene camera, frame by frame</span></span><span class="pt"><b>Fixations</b><span>The gaze stream is split into fixations and saccades on characters</span></span><span class="pt"><b>First looks</b><span>Heatmaps show where attention lands first and for how long</span></span></span></span></a><a class="mod" href="language.html"><span class="mi fit"><img src="deep-talk-card.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Conversation · semantic networks</span><span class="mt">Voice and power in meaning-making</span><span class="md">DEEP Talk and directed knowledge graphs show whose ideas lead a conversation, and whose ideas are taken up.<span class="kf"><b>Contribution</b>A framework and method that make children's epistemic agency visible, giving researchers and educators a shared language for child-led learning.</span><span class="kf bt"><b>Innovation</b>Directed, agent-attributed knowledge graphs that record who introduced each idea, how it was prompted, and whether it was taken up.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>D · Decontextualize</b><span>Talk that moves beyond the here and now, to past events, the future, and abstract ideas</span></span><span class="pt"><b>E · Elaborate</b><span>Adding detail, description, and explanation to an idea already on the table</span></span><span class="pt"><b>E · Extend</b><span>Building on the child's idea to connect it to new concepts</span></span><span class="pt"><b>P · Probe</b><span>Open what, why, and how questions that invite the child to reason</span></span><span class="pt"><b>Reading the graph</b><span>Bigger circles are more child-led. Green: child's idea; blue: shared; gray: adult's. Solid: open prompt; dashed: closed. Faded: not taken up. Arrows show direction.</span></span></span></span></a><a class="mod" href="genai.html"><span class="mi fit"><img src="place-ai-pipeline.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Generative AI · algorithmic audit</span><span class="mt">AI as a cultural institution</span><span class="md">Language models now write lessons for young children. PLACE-AI audits what they say, and how much prompting changes it.<span class="kf"><b>Contribution</b>An approach for auditing AI-generated educational content that centers place, culture, and community, informing responsible AI in child- and family-serving systems.</span><span class="kf bt"><b>Innovation</b>A controlled audit with selective classification: the model abstains when evidence is weak, so estimates rest on clear cases.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Generate</b><span>Prompt a model under four conditions, from topic-only to integrated place-based</span></span><span class="pt"><b>Encode</b><span>Split outputs into units and embed each with a transformer</span></span><span class="pt"><b>Retrieve</b><span>Compare each unit with STEM and social studies prototypes</span></span><span class="pt"><b>Decide or abstain</b><span>Label only clear, relevant units; set uncertain ones aside</span></span><span class="pt"><b>Measure</b><span>Disciplinary balance, sequences, and semantic neighborhoods</span></span></span></span></a><a class="mod" href="inquiry.html"><span class="mi fit"><img src="logs-e2e-card.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Digital traces · process mining</span><span class="mt">How children do science</span><span class="md">Every tap in a science app becomes a network of moves between hypothesis, testing, and analysis.<span class="kf"><b>Contribution</b>Process-level evidence of how young learners reason with technology, informing more equitable design of digital learning tools.</span><span class="kf bt"><b>Innovation</b>Raw interaction logs become weighted transition networks, turning clickstreams into interpretable inquiry strategies.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Capture</b><span>Every action in the science app is logged with a timestamp</span></span><span class="pt"><b>Parse</b><span>Raw events become inquiry steps: hypothesis, submission, analysis</span></span><span class="pt"><b>Graph</b><span>Transitions between steps form a weighted, directed network</span></span><span class="pt"><b>Profile</b><span>Learners cluster into strategies compared on learning gains</span></span></span></span></a><a class="mod" href="acoustics.html"><span class="mi fit"><img src="cry-spectrogram.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">Voice &amp; audio · acoustics</span><span class="mt">The first social signals</span><span class="md">Crying is an infant's first way of calling for care. Acoustic analysis traces its rhythm, pitch, and structure.<span class="kf"><b>Contribution</b>Reproducible acoustic profiles of infant crying that ground caregiving research in the structure of the infant's own signals.</span><span class="kf bt"><b>Innovation</b>Onset-aligned acoustic profiles compare envelope, pitch, and spectral shape across ages and cry types.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Segment</b><span>Detect cry onset and isolate each vocalization</span></span><span class="pt"><b>Envelope</b><span>Track loudness over time: bursts and pauses</span></span><span class="pt"><b>Spectrum</b><span>Pitch, harmonics, and spectral centroid from the spectrogram</span></span><span class="pt"><b>Compare</b><span>Contrast profiles by age band and cry type</span></span></span></span></a><a class="mod" href="mosaic.html"><span class="mi fit"><img src="mosaic-architecture.webp" alt="" loading="lazy"></span><span class="mb"><span class="mk">All channels together · MOSAIC</span><span class="mt">Opportunity across homes, classrooms, and communities</span><span class="md">Every channel on one clock, across the places children spend their days: at home with family, in early learning programs, and in the community.<span class="kf"><b>Contribution</b>A child-level, multimodal measure of opportunity that makes developmental equity observable across families, early learning programs, and communities.</span><span class="kf bt"><b>Innovation</b>Puts every signal on one clock and follows the same child across settings, linking moment-to-moment experience to family and community context.</span></span><span class="mg">Explore →</span><span class="parts"><span class="pt"><b>Initiation</b><span>Children noticing, questioning, predicting, and explaining</span></span><span class="pt"><b>Contingent response</b><span>Uptake, elaboration, revoicing, and transfer of control</span></span><span class="pt"><b>Continuity</b><span>Persistence, testing, evidence use, and revision</span></span><span class="pt"><b>Agency</b><span>Access to materials, choice, and influence over what happens next</span></span></span></span></a></div>
+<p class="more">Beyond the moment: <a href="trajectories.html">family, organizational, and community systems →</a></p></section>
+
+<section class="proj" aria-labelledby="h-proj">
+<div class="prj-h">
+  <div class="pbadge"><img src="logo-meaning.webp" alt="Meaning Making: Energy, Weather, Place" loading="lazy"></div>
+  <div class="prj-t">
+    <p class="lbl">Featured project</p>
+    <h2 id="h-proj">Beyond the Snapshot</h2>
+    <p class="psub">Multimodal AI for understanding learning across place and time</p>
+    <p>Classroom quality measures capture a moment. Children learn across many. This longitudinal study follows young children from Head Start through Grade 1, at school, at home, and in museums, to build and validate MOSAIC, a human-centered measure of how learning opportunities unfold, recur, and reorganize. Oklahoma's weather, water, energy, natural history, and community change are the shared context children explore.</p>
+    <div class="pstats"><div><strong>~120</strong><span>children from age 3</span></div><div><strong>8</strong><span>fall/spring waves</span></div><div><strong>~960</strong><span>child-wave observations</span></div><div><strong>4</strong><span>years, preschool to Grade 1</span></div><div><strong>3</strong><span>settings: school, home, museum</span></div></div>
+    <a class="btn pri" href="snapshot.html">Project details →</a>
+  </div>
+</div>
+<div class="pblock"><p class="lbl">Eight waves across two transitions</p><div class="waves"><div class="wv head"><span class="wd"></span><b>Age 3</b><span>Fall</span></div><div class="wv head"><span class="wd"></span><b>Age 3</b><span>Spring</span></div><div class="wv head"><span class="wd"></span><b>Age 4</b><span>Fall</span></div><div class="wv head"><span class="wd"></span><b>Age 4</b><span>Spring</span></div><div class="wv kindergarten"><span class="wd"></span><b>K</b><span>Fall</span></div><div class="wv kindergarten"><span class="wd"></span><b>K</b><span>Spring</span></div><div class="wv grade"><span class="wd"></span><b>Grade 1</b><span>Fall</span></div><div class="wv grade"><span class="wd"></span><b>Grade 1</b><span>Spring</span></div></div><div class="wlegend"><span class="hs">Head Start preschool</span><span class="k">Kindergarten</span><span class="g1">Grade 1</span></div></div>
+<div class="pblock"><p class="lbl">Three settings, one analytic structure</p><div class="psets"><div class="ps" style="--c:var(--navy)"><span class="pk">School</span><h3>Head Start through Grade 1</h3><p>About 45 minutes across three formats: large-group picture-book reading, small-group constructive play, and one-on-one place-based inquiry with the teacher.</p></div><div class="ps" style="--c:var(--brick)"><span class="pk">Home</span><h3>Parent–child sessions</h3><p>Shared book reading and open-ended block play centered on children's everyday environments, so family knowledge and lived experience can surface naturally.</p></div><div class="ps" style="--c:var(--teal)"><span class="pk">Museum &amp; community</span><h3>Public learning places</h3><p>Parent–child exploration connected to the Sam Noble Museum of Natural History and the National Weather Center, around authentic objects, exhibits, and phenomena.</p></div></div><p class="pnote">Across every setting, MOSAIC links a child's contribution to the social, material, or environmental response and to what the child does next.</p></div>
+<div class="pblock"><p class="lbl">Four cumulative aims</p><div class="paims"><div class="pa"><span class="pn">Aim 1</span><h3>Construct and content validity</h3><p>Define the observable events that make up a Situated Learning Opportunity, and organize them into initiation, contingent response, inquiry continuity, and participatory agency.</p></div><div class="pa"><span class="pn">Aim 2</span><h3>Multimodal measurement</h3><p>Recover those events from speech, pose, gesture, hand–object interaction, and spatial relations, with uncertainty-aware fusion that flags low-confidence moments.</p></div><div class="pa"><span class="pn">Aim 3</span><h3>Educational and longitudinal validity</h3><p>Test whether MOSAIC adds child-specific information beyond established classroom measures, and how learning opportunities change across eight waves.</p></div><div class="pa"><span class="pn">Aim 4</span><h3>Generalization and usability</h3><p>Find the lightest camera and sensor setup that keeps what matters, and make outputs interpretable for researchers, educators, and families.</p></div></div></div>
+<div class="pblock"><p class="lbl">Partners and interdisciplinary expertise</p><div class="plogos"><span class="pl"><img src="logo-ou.webp" alt="University of Oklahoma: College of Education, School of Meteorology, Department of History" loading="lazy"></span><span class="pl"><img src="logo-cap.webp" alt="Community Action Partnership" loading="lazy"></span><span class="pl"><img src="logo-snomnh.webp" alt="Sam Noble Oklahoma Museum of Natural History" loading="lazy"></span><span class="pl"><img src="logo-nwc.webp" alt="National Weather Center" loading="lazy"></span></div><p class="pnote">Mentoring and collaboration span early childhood education, computer science, meteorology, and history, with a Head Start research–practice partnership guiding feasibility, privacy, and interpretation.</p></div>
+</section>
+<section aria-labelledby="h-wip"><div class="prose"><p class="lbl">Work in progress &amp; talks</p><h2 id="h-wip">What's next, and where I've shared it</h2></div>
+<div class="wip">
+<div class="wipc"><h3>Under review</h3><ul class="clean"><li>From prediction to prevention: Human-in-the-loop AI for strengthening quality of care in child- and family-serving systems</li><li>Responsible AI for child and family well-being: A human-centered framework for strengthening relationships, services, and communities</li><li>Examining the psychometric properties of the Infant and Toddler Literacy Assessment (ITLA)</li><li>Using survival analysis to study the timing of children surpassing a developmental threshold</li><li>Exploring the mechanisms linking parent–teacher relationships to child outcomes</li><li>The importance of the physical environment to support well-being of children and teachers in early care and education settings</li></ul></div>
+<div class="wipc"><h3>In preparation</h3><ul class="clean"><li>AI, digital equity, and childhood well-being: Linguistic, cultural, developmental, and socioeconomic disparities in emerging technologies</li><li>PLACE-AI: Examining how generative AI represents place, culture, community knowledge, and belonging in child- and family-serving contexts</li><li>Relational continuity as protective infrastructure for childhood well-being: A computational social network approach (with the Educare Learning Network)</li><li>Multilingual family–provider communication in the age of AI: Language, belonging, digital equity, and quality of care</li><li>Gendered language environments in early childhood: Using computational linguistics to examine identity, relationships, and well-being</li><li>Cultural models of father involvement in Norway and South Korea: Integrating deep learning, family relationships, and culture (with H. Jun)</li></ul><a class="more2" href="publications.html#h-ip">All 10 manuscripts →</a></div>
+<div class="wipc"><h3>Recent talks &amp; webinars</h3><ol class="bib"><li><span class="y">2026</span><div><p class="t">Preparing teachers for equitable science learning</p><p class="v">2026 National Association of Early Childhood Teacher Educators (NAECTE) Summer Conference</p></div></li><li><span class="y">2025</span><div><p class="t">Transforming ECE with multimodal AI</p><p class="v">OU JRCoE Center for Educational Development and Research</p></div></li><li><span class="y">2025</span><div><p class="t">Transforming early care and education with AI and Machine Learning</p><p class="v">SKKU-OU Global Dialogues in Early Childhood Education</p></div></li><li><span class="y">2025</span><div><p class="t">Reimagining society through Artificial Intelligence and Machine Learning</p><p class="v">Seoul National University</p></div></li><li><span class="y">2024</span><div><p class="t">Leveraging Machine Learning and Natural Language Processing algorithms for a deeper understanding of adult-child language interactions</p><p class="v">University of Hong Kong</p></div></li></ol><a class="more2" href="publications.html#h-sp">All 57 presentations, 9 webinars, 10 invited talks →</a></div>
+</div></section>
+<section aria-labelledby="h-aw"><div class="prose"><p class="lbl">Recognition</p><h2 id="h-aw">Awards and honors</h2><p>Recognized for transdisciplinary research, teaching, and work at the intersection of AI and early childhood.</p></div><div class="awf"><div class="aw"><span class="ay">2026</span><h3>New PI Award</h3><p>OU Institute for Community and Society Transformation</p></div><div class="aw"><span class="ay">2026</span><h3>Pre-Tenure Faculty Award, College-Wide</h3><p>OU Jeannine Rainbolt College of Education</p></div><div class="aw"><span class="ay">2023</span><h3>Award for Excellence in Transdisciplinary, Convergent Research</h3><p>OU Office of the Vice President for Research and Partnerships</p></div><div class="aw"><span class="ay">2021</span><h3>Tanner Award for Excellence in Undergraduate Teaching</h3><p>UNC Office of the Provost</p></div></div><ul class="awl"><li><span class="ay">2024</span><span><b>First Place Poster Award</b> · Oklahoma Partnership for School Readiness</span><span class="lv">State</span></li><li><span class="ay">2021</span><span><b>Best Poster Award</b> · Conference on Artificial Intelligence in Smart Cities</span><span class="lv">International</span></li><li><span class="ay">2021</span><span><b>ISLS &amp; Wallace Foundation Scholarship</b> · International Society of the Learning Sciences</span><span class="lv">International</span></li><li><span class="ay">2021</span><span><b>NAECTE Foundation Doctoral Scholarship</b> · National Association of Early Childhood Teacher Educators</span><span class="lv">National</span></li></ul></section>
+<section aria-labelledby="h-c"><div class="prose"><p class="lbl">Contact</p><h2 id="h-c">Collaboration and partnerships</h2><p>I work with families, early childhood programs, community organizations, and colleagues across human development, sociology, statistics, and computer science.</p></div>
+<div class="contact"><code id="email">wkjang@ou.edu</code><button class="btn" type="button" id="copy">Copy email</button><a class="btn" href="https://www.ou.edu/education/people/faculty/wonkyung-jang">Faculty page ↗</a></div>
+<div class="cvdl"><div><span class="lbl">Curriculum vitae</span><p>Full CV with publications, grants, teaching, and service.</p></div><div class="cta"><a class="btn pri" href="Jang_CV.pdf" download>Download CV (PDF)</a><a class="btn" href="Jang_CV.pdf" target="_blank" rel="noopener">Open in browser</a><a class="btn" href="cv.html">CV page</a></div></div></section>
+<footer><span>MOSAIC Lab (Multimodal Observation of Situated Activity, Interaction, and Child Learning) · Director: Wonkyung Jang, Assistant Professor, Jeannine Rainbolt College of Education, University of Oklahoma</span><span>Click any figure to enlarge</span></footer>
+</div>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Figure viewer">
+<div class="lbbar"><span id="lbcap"></span><span style="display:flex;gap:8px"><button type="button" id="lbz">Zoom 2×</button><button type="button" id="lbx">Close</button></span></div>
+<div class="lbimg"><img id="lbimg" alt=""></div></div>
+<script src="site.js"></script>
+</body>
+</html>

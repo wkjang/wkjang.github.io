@@ -47,7 +47,7 @@
 
     var lanes=[["speech","navy",1.9,.9],["gaze","teal",.8,.6],["gesture","brick",1.3,1.2],["pose","olive",.6,.8],["objects","violet",2.4,.5],["proximity","ochre",.45,1]];
     function rnd(s){var x=Math.sin(s*9301+49297)*233280;return x-Math.floor(x);}
-    var clusters=[{x:690,y:150,c:"teal",n:"approach"},{x:760,y:285,c:"muted",n:"stable"},{x:640,y:300,c:"brick",n:"withdraw"}];
+    var clusters=[{x:690,y:150,c:"teal",n:"approach"},{x:760,y:285,c:"muted",n:"stable"},{x:640,y:300,c:"brick",n:"independent"}];
     var pts=[];for(var i=0;i<84;i++){var k=i%3,cl=clusters[k],a=rnd(i)*6.283,r=rnd(i+99)*44+4;pts.push({x:cl.x+Math.cos(a)*r*1.2,y:cl.y+Math.sin(a)*r*.8,k:k});}
     var nodes=[{id:"C",x:960,y:210,r:22,c:"brick",t:"child"},{id:"T",x:1060,y:120,r:18,c:"navy",t:"teacher"},{id:"P",x:1060,y:310,r:15,c:"teal",t:"peer"},{id:"P2",x:880,y:330,r:12,c:"teal",t:"peer"},{id:"B",x:870,y:105,r:11,c:"olive",t:"book",sq:1},{id:"K",x:1080,y:220,r:10,c:"olive",t:"blocks",sq:1}];
     var N={};nodes.forEach(function(n){N[n.id]=n;});
@@ -105,7 +105,7 @@
       ctx.globalAlpha=1;
       lbl("approach",clusters[0].x,clusters[0].y-48,"center",C.teal,10);
       lbl("stable",clusters[1].x,clusters[1].y+54,"center",C.muted,10);
-      lbl("withdraw",clusters[2].x-6,clusters[2].y-48,"center",C.brick,10);
+      lbl("independent",clusters[2].x-6,clusters[2].y-48,"center",C.brick,10);
       // particles from encoder to latent
       if(!reduce&&frame%14===0){var k=Math.floor(Math.random()*3);flows.push({k:k,p:0,tx:clusters[k].x+(Math.random()-.5)*60,ty:clusters[k].y+(Math.random()-.5)*36});}
       flows=flows.filter(function(f){f.p+=.018;return f.p<1;});
@@ -196,7 +196,7 @@
 (function(){
   var g=document.querySelector(".mvg"),ph=document.getElementById("ph");if(!g||!ph)return;
   var t=document.getElementById("mvt"),st=document.getElementById("mvs");
-  var S=[["shared focus",0,14,"#16323A","#7DD3C4"],["responsiveness",14,30,"#232E37","#B4C2CD"],["shared focus",30,44,"#16323A","#7DD3C4"],["disconnection",44,52,"#3A1C1A","#F2918A"],["responsiveness",52,70,"#232E37","#B4C2CD"],["shared focus",70,88,"#16323A","#7DD3C4"],["responsiveness",88,100,"#232E37","#B4C2CD"]];
+  var S=[["shared focus",0,14,"#16323A","#7DD3C4"],["responsiveness",14,30,"#232E37","#B4C2CD"],["shared focus",30,44,"#16323A","#7DD3C4"],["independent activity",44,52,"#3A1C1A","#F2918A"],["responsiveness",52,70,"#232E37","#B4C2CD"],["shared focus",70,88,"#16323A","#7DD3C4"],["responsiveness",88,100,"#232E37","#B4C2CD"]];
   var D=16000,reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
   function set(f){
     var track=g.querySelector(".mr");var x=track.offsetLeft+f*track.offsetWidth;ph.style.left=x+"px";

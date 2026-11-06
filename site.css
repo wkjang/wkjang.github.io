@@ -569,3 +569,4 @@ details.yr .cnt{font-family:var(--mono);font-size:.75rem;color:var(--muted);font
 .qt span{display:block;font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brick);margin-bottom:6px}
 .qt p{margin:0;font-size:.88rem;line-height:1.5}
 @media (max-width:900px){.qtypes{grid-template-columns:1fr 1fr}}
+.cagrid.ci4{grid-template-columns:repeat(4,minmax(0,1fr))}@media (max-width:1000px){.cagrid.ci4{grid-template-columns:1fr 1fr}}@media (max-width:640px){.cagrid.ci4{grid-template-columns:1fr}}
